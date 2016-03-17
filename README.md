@@ -1,12 +1,16 @@
-# 2. Homework
+# 1. Homework
 
-## Deadline 31.03
+## Deadline 25.02
 
 ## Requirements
 
-1. Start from your web application idea and your first homework
-2. Add important functionalities to your application:
-* everything you insert/add through submitting form gets saved to database (use phpMyAdmin in greeny to setup your table)
-* show user database insertions (for example you have a page with table showing contents)
-* enable deleting/archiving for inserted items ("x" button and for example mark column deleted to NOW())
-* add [Bootstrap](http://getbootstrap.com) design to your app
+1. Add an idea of your minimal application [mvp](https://en.wikipedia.org/wiki/Minimum_viable_product) with what you will work through the course. Everyone should have their own and somehow different idea.
+1. On the basis of your idea create a web page 
+  * should contain atleast 4 fields user can input ([read about different input types (color, texarea etc)](http://www.w3schools.com/html/html_form_input_types.asp))
+  * all required fields need to validated, if left empty, should let user know (PS! at least one field should be required)
+  
+### Example
+
+1. Idea is to create messenger application, users can send and recieve messages. There is also a history of messages.
+2. 4 fields in the created web page can be :from, :to, :message, date_to_recieve:. Required are :from, :to and :message.
+
