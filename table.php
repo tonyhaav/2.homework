@@ -17,7 +17,7 @@
 		echo "Deleting row with id:".$_GET["delete"];
 		
 		// NOW() = current date-time
-		$stmt = $mysql->prepare("UPDATE messages_sample SET deleted=NOW() WHERE id = ?");
+		$stmt = $mysql->prepare("UPDATE puppy_table SET deleted=NOW() WHERE id = ?");
 		
 		echo $mysql->error;
 		
